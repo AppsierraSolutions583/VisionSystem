@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation_Suite">
+	<test thread-count="5" name="EndToEndTest">
+		<classes>
+			<class name="com.vision.test.LoginPageTest" />
+			<class name="com.vision.test.DashboardPageTest" />
+			<class name="com.vision.test.InventoryPageTest" />
+			<class name="com.vision.test.ResourcesPageTest" />
+			<class name="com.vision.test.LackingPartsPageTest" />
+			<class name="com.vision.test.JobListPageTest" />
+			<class name="com.vision.test.OrderSummaryPageTest" />
+			<class name="com.vision.test.AnalyticsPageTest" />
+			<class name="com.vision.test.CustomerInvoicePageTest" />
+			<class name="com.vision.test.OrderDetailsPageTest" />
+			<class name="com.vision.test.WorkOrderPageTest" />
+			<class name="com.vision.test.ProductionPageTest" />
+			<class name="com.vision.test.OutstandingOrdersPageTest" />
+			<class name="com.vision.test.ProductionPlannningPageTest" />
+			<class name="com.vision.test.ShippingInvoicePageTest" />
+			<class name="com.vision.test.PurchaseOrderPageTest" />
+		</classes>
+	</test> <!-- EndToEndTest -->
+</suite> <!-- Automation_Suite -->

@@ -1,0 +1,140 @@
+<WorkOrderDetails>
+	<ProductionPlanning ItemCode="313-7029-01" Quantity="3" Flow="PRO1" CircuitEngineeringVersion="140" Timestamp="20220209_230311">
+		<Task Type="PRODUCTION ENGINEERING" Hours="0.15"/>
+		<Task Type="ASSEMBLY DRAWING" Hours="0.07"/>
+		<Task Type="PARTS PICKING (STORES)" Hours="0.21"/>
+		<Task Type="WIRE MARKING" Hours="0"/>
+		<Task Type="WIRE STRIPPING &amp; CUTTING &amp; CAPPING" Hours="0.23"/>
+		<Task Type="APPLICATOR TOOL CHANGING" Hours="0"/>
+		<Task Type="TERMINATING / SPLICING" Hours="0.32"/>
+		<Task Type="WIRE TWISTING" Hours="0"/>
+		<Task Type="MIDDLE INSPECTION" Hours="0.06"/>
+		<Task Type="HEAT SHRINK APPLICATION" Hours="0.04"/>
+		<Task Type="ASSY BOARD SET UP" Hours="0.09"/>
+		<Task Type="ASSEMBLY" Hours="1.11"/>
+		<Task Type="WRITING CIRCUIT TEST PROGRAM" Hours="0"/>
+		<Task Type="MOGI HARNESS SET UP" Hours="0.02"/>
+		<Task Type="CIRCUIT TESTING" Hours="0.11"/>
+		<Task Type="BUZZER TESTING (1 TIME ONLY ON NEW HARNESS)" Hours="0.01"/>
+		<Task Type="BRAIDING MACHINE SET UP" Hours="0"/>
+		<Task Type="BRAIDING" Hours="0.13"/>
+		<Task Type="BRANCH LABELLING" Hours="0.01"/>
+		<Task Type="GREASING" Hours="0"/>
+		<Task Type="SECOND CIRCUIT TESTING" Hours="0.11"/>
+		<Task Type="FINAL INSPECTION" Hours="0.73"/>
+		<Task Type="PRE-DELIVERY INSPECTION" Hours="0.07"/>
+		<Task Type="PACKING" Hours="0.1"/>
+	</ProductionPlanning>
+	<ProductDetails ItemName="CHASSIS BACK TO CHASSIS FRONT" ItemCode="313-7029-01">
+		<Component Quantity="11" ItemCode="TE1010" ItemName=""/>
+		<Component Quantity="1" ItemCode="LU1006" ItemName="LUG BATTERY 10 MM (FOR 10MM EYE)" Weight="7 g"/>
+		<Component Quantity="1" ItemCode="LU1008" ItemName="LUG BATTERY 6 MM (FOR 6MM EYE)" Weight="4 g"/>
+		<Component Quantity="2" ItemCode="PC1059" ItemName=""/>
+		<Component Quantity="5" ItemCode="WI1028" ItemName="BATTERY CABLE 6 AWG BLACK"/>
+	</ProductDetails>
+	<TheoreticalCost>
+		<TheoreticalCosting Type="Theoretical Yarn Cost" Cost="0.00"/>
+		<TheoreticalCosting Type="Theoretical Consumable Cost" Cost="131.74"/>
+	</TheoreticalCost>
+	<CircuitEngineering Customer="TRT" ItemCode="313-7029-01" Flow="PRO1" WorkOrder="WOM-00048080" TerminalType="S&amp;F" Quantity="6" Timestamp="20220209_230311">
+		<Circuits>
+			<Circuit wireSize="6" wireLocationNo="1" totalNumberOfWires="1" totalNumberOfMarkedWires="" totalMMOfMarkedWires="" spliceCalculations="" wireItemCode="WI1028" wireSpec="GXL" wireKey="6GXL" wireKeyColor="6GXLB" csa="13" wireColor="B" actualLengthMM="8480" cuttingLengthMM="8530" wireMarking="" cableEyeWireName="" twistedPair="" testPointPinAEnd="E11" spliced="N" fromAEnd="E1" pinAEnd="1" spliceAEnd="" cableEyeTestPointAEnd="" cableEyePinNumberAEnd="" connectorAEnd="6MM EYE" milSpecAEnd="" terminalAEnd="LU1008" stripLengthAEnd="11" doubleCrimpAEnd="" wireSealAEnd="" dummyPlugAEnd="" testPointPinBEnd="E21" toBEnd="E2" pinBEnd="1" spliceBEnd="" cableEyeTestPointBEnd="" cableEyePinNumberBEnd="" connectorBEnd="10MM EYE" milSpecBEnd="" terminalBEnd="LU1006" stripLengthBEnd="19" doubleCrimpBEnd="" wireSealBEnd="" dummyPlugBEnd="" SpliceXSectionArea="" spliceItemCode="" splicePartNumber="" Remarks="" markedSpliceFrom="" markedSpliceTo=""/>
+		</Circuits>
+		<TestPoints>
+			<TestPoint testPoint="E1" connector="6MM EYE" goldNickel="" manualGender="" calculateGender="0" automaticGender="0" milSpecHelper="" milSpec="" dinPlug=""/>
+			<TestPoint testPoint="E2" connector="10MM EYE" goldNickel="" manualGender="" calculateGender="0" automaticGender="0" milSpecHelper="" milSpec="" dinPlug=""/>
+		</TestPoints>
+		<HarnessDetails>
+			<Variable process="" name="Total Number of Branch(s)" uom="pcs" value="1"/>
+			<Variable process="" name="Number of Junction" uom="pcs" value="0"/>
+			<Variable process="" name="Number of Terminal with Cover" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF BUSS RECEPTACLES " uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF GROMMET" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF GREASE FILLED CONNECTOR BOOTS" uom="pcs" value="0"/>
+			<Variable process="" name="BRAID" uom="" value=""/>
+			<Variable process="" name="AMALGAMATED" uom="" value="No"/>
+			<Variable process="" name="BRANCH LABELLING" uom="" value="Yes"/>
+			<Variable process="14.3.2 Supplied Parts" name="Qty of items to be supplied" uom="pcs" value="0"/>
+			<Variable process="14.5.4 Junction taping" name="Number of junctions on main harness" uom="pcs" value="0"/>
+			<Variable process="14.5.5 Tessa taping" name="Total length of harness with tessa tape" uom="mm" value="0"/>
+			<Variable process="14.5.6 Amalgamating taping" name="Total length of harness with amalgamate tape" uom="mm" value="0"/>
+			<Variable process="14.5.7 Assembly using Tie Band Clip" name="Total length of harness with with tie band" uom="mm" value="0"/>
+			<Variable process="14.5.8 Perform Halflap Taping" name="Total length of harness with halflap tape" uom="mm" value="0"/>
+			<Variable process="14.5.9 Attachment of Conduit" name="Total length of harness with COT, Tubes etc" uom="mm" value="0"/>
+			<Variable process="14.6 Heatshrink for Eye terminals" name="Number of eye terminals" uom="pcs" value="2"/>
+			<Variable process="20.4 Taping of braid end" name="Total number of branch with braid" uom="pcs" value="0"/>
+			<Variable process="9.5.1 Attachment of Tube" name="Total length of harness with PVC, Varflex, Insulflex" uom="mm" value="0"/>
+			<Variable process="9.5.1 Attachment of Tube" name="Number of pieces of PVC, Varflex, Insulflex" uom="pcs" value="0"/>
+			<Variable process="9.5.4 Attachment of Heater Hose" name="Total length of harness with Heater Hose" uom="mm" value="0"/>
+			<Variable process="21.3. Labelling process " name="Total number of branch label" uom="pcs" value="2"/>
+			<Variable process="21.4. Attachment of Diode" name="Total number of Diode" uom="pcs" value="0"/>
+			<Variable process="21.5. E-stop assembly" name="Total number of E-Stop" uom="pcs" value="0"/>
+			<Variable process="" name="Total Harness Lengths combined  (IN MM)" uom="mm" value="8480"/>
+			<Variable process="" name="Total Number of Branch(s)" uom="pcs" value="1"/>
+			<Variable process="" name="Number of Junction" uom="pcs" value="0"/>
+			<Variable process="" name="Total Number of wires to cut" uom="pcs" value="1"/>
+			<Variable process="" name="Total Number of TERMINATIONS (NOT SPLICES) " uom="pcs" value="2"/>
+			<Variable process="" name="NUMBER OF PRINTED CIRCUITS - CIRCUIT NUMBERS (NOT WIRES) " uom="pcs" value="0"/>
+			<Variable process="" name="Number of Lug terminals (HAND CRIMPED &amp; SOLDERED EYE)" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF SPLICE / DOUBLE CRIMP" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF WIRES  LESS THAN 500 mm LONG" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF WIRES BETWEEN 501 - 1200 mm LONG" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF WIRES BETWEEN 1201 - 3000 mm LONG" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF WIRES LONGER THAN 3001 mm" uom="pcs" value="1"/>
+			<Variable process="" name="NUMBER OF DIFFERENT TERMINAL PART NUMBERS " uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF MIL-SPEC CONNECTORS" uom="pcs" value="0"/>
+			<Variable process="" name="Number of Pickable Part Numbers" uom="pcs" value="6"/>
+			<Variable process="" name="Total Batch Quantity of Pickable Parts" uom="pcs" value="30"/>
+			<Variable process="" name="total number of NON MIL-SPEC connectors" uom="pcs" value="2"/>
+			<Variable process="" name="Terminal with Cover" uom="pcs" value="0"/>
+			<Variable process="" name="MARKED WIRES" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF BUSS RECEPTACLES " uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF BOOTS per Harness " uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF GROMMET" uom="pcs" value="0"/>
+			<Variable process="" name="Assy Board(1)/Non Assy(0)" uom="" value="1"/>
+			<Variable process="" name="Harness Quantity" uom="pcs" value="6"/>
+			<Variable process="" name="NUMBER OF DIFFERENT SPLICES" uom="pcs" value="0"/>
+			<Variable process="" name="SPLICED WIRES  LESS THAN 500 mm LONG" uom="pcs" value="0"/>
+			<Variable process="" name="SPLICED WIRES BETWEEN 501 - 1200 mm LONG" uom="pcs" value="0"/>
+			<Variable process="" name="SPLICED WIRES BETWEEN 1201 - 3000 mm LONG" uom="pcs" value="0"/>
+			<Variable process="" name="SPLICED WIRES LONGER THAN 3001 mm" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF DIFFERENT *PRINTED* SPLICES" uom="pcs" value="0"/>
+			<Variable process="" name="NUMBER OF WIRE SEALS" uom="pcs" value="0"/>
+			<Variable process="Setting of Wires/Machine and other" name=" 1. Total Number of NON Printed Wires" uom="pcs" value="1"/>
+			<Variable process="" name=" 2. Total number of PRINTED WIRES" uom="pcs" value="0"/>
+			<Variable process="7.4 Mass Production - Cutting" name="7.4.1 Total Cutting Length on Non Printed wires" uom="mm" value="8530"/>
+			<Variable process="" name="7.4.2 Total Cutting Length on Printed wires" uom="mm" value="0"/>
+			<Variable process="9.4 With CAB cable" name=" Total number of CAB in a harness" uom="pcs" value="0"/>
+			<Variable process="9.5 With Splice (# of wires)" name=" Total Number of wires to all splice" uom="pcs" value="0"/>
+			<Variable process="9.6 Machine Crimping" name=" Total Number of terminals (Except for MILSpecs)" uom="pcs" value="2"/>
+			<Variable process="9.6.3 Manual Crimping and Soldering" name=" Total Number of ways for MIL Specs Conn." uom="pcs" value="0"/>
+			<Variable process="9.6.4 With Capping (wire seal)" name=" Total Number of terminals with wire seal" uom="pcs" value="0"/>
+			<Variable process="# of Splice" name=" Total number of Splice" uom="pcs" value="0"/>
+			<Variable process="# of wire with marking" name=" Total number of wires with marking" uom="pcs" value="0"/>
+			<Variable process="14.3.3 Fit blanking/parts " name="Total number of cavity" uom="pcs" value="0"/>
+			<Variable process="14.4.1 Arrangement of Crimped wires" name="Total wires (except Spliced wires)" uom="pcs" value="1"/>
+			<Variable process="14.4.2 Arrangement of Jointed wires" name="Qty of Splice" uom="pcs" value="0"/>
+			<Variable process="14.5.1 Sub-Assembly" name="Total number of Test Point" uom="pcs" value="2"/>
+			<Variable process="14.5.1.1 With DIN Plug connector" name="Qty of DIN Connector" uom="pcs" value="0"/>
+			<Variable process="14.5.2 Layout of Wires" name="Total Cutting Length" uom="mm" value="8530"/>
+			<Variable process="14.5.3 Spot Taping " name="Total length of harness" uom="mm" value="8480"/>
+			<Variable process="Braiding" name="Total length of braided part of the harness" uom="mm" value="0"/>
+			<Variable process="20.5 Application of Putty to MIL Spec" name="Total number of MIL SPECS connectors" uom="pcs" value="2"/>
+			<Variable process="20.6.1 Tessa taping" name="Total length of harness with tessa tape" uom="mm" value="0"/>
+			<Variable process="20.6.2 Amalgamating taping" name="Total length of harness with amalgamate tape" uom="mm" value="0"/>
+		</HarnessDetails>
+		<BraidedSections>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 5mm BRAID DIAMETER " diameter="5" wires="1 WIRES " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 6mm BRAID DIAMETER " diameter="6" wires="2 WIRES " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 8mm BRAID DIAMETER " diameter="8" wires="3-4 WIRES" lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 10mm BRAID DIAMETER " diameter="10" wires="5-8 wires " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 12mm BRAID DIAMETER " diameter="12" wires="9-13 wires " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 16mm BRAID DIAMETER " diameter="16" wires="14-16 wires " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 20mm BRAID DIAMETER " diameter="20" wires="17-25 wires " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 25mm BRAID DIAMETER " diameter="25" wires="26-40 WIRES" lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 32mm BRAID DIAMETER " diameter="32" wires="41-80 WIRES " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 40mm BRAID DIAMETER " diameter="40" wires="81-130 WIRES " lengthMM=""/>
+			<BraidedSection name="MM OF HARNESS SECTION WITH 50mm BRAID DIAMETER " diameter="50" wires="131 OR MORE " lengthMM=""/>
+		</BraidedSections>
+	</CircuitEngineering>
+</WorkOrderDetails>

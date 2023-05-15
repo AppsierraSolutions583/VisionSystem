@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 5, Errors: 0, Skipped: 12, Time elapsed: 14,701.958 s <<< FAILURE! - in TestSuite
+com.vision.test.DashboardPageTest.dashboardModule  Time elapsed: 727.17 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'FLOW')]' (tried for 10 second(s) with 500 milliseconds interval)
+	at com.vision.test.DashboardPageTest.dashboardModule(DashboardPageTest.java:21)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'FLOW')]"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAM-PERSONAL', ip: '192.168.29.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\samle\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c76ee44578df13a0c900816abfe911
+*** Element info: {Using=xpath, value=//span[contains(text(),'FLOW')]}
+	at com.vision.test.DashboardPageTest.dashboardModule(DashboardPageTest.java:21)
+
+com.vision.test.InventoryPageTest.Inventory  Time elapsed: 217.927 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAM-PERSONAL', ip: '192.168.29.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\samle\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03783b12cadbf10b54e996479d18d915
+	at com.vision.test.InventoryPageTest.Inventory(InventoryPageTest.java:41)
+
+com.vision.test.LackingPartsPageTest.lackingParts  Time elapsed: 1,181.993 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.vision.test.LackingPartsPageTest.lackingParts(LackingPartsPageTest.java:29)
+
+com.vision.test.WorkOrderPageTest.newWorkOrderTest  Time elapsed: 189.275 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true],
+	expected [true] but found [false],
+	expected [false] but found [true],
+	expected [true] but found [false],
+	expected [false] but found [true],
+	expected [true] but found [false],
+	expected [false] but found [true]
+	at com.vision.test.WorkOrderPageTest.newWorkOrderTest(WorkOrderPageTest.java:30)
+
+com.vision.test.PurchaseOrderPageTest.newPurchaseOrderTest  Time elapsed: 495.819 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'Successfully finalized the WorkOrder: ')]/a/b' (tried for 10 second(s) with 500 milliseconds interval)
+	at com.vision.test.PurchaseOrderPageTest.newPurchaseOrderTest(PurchaseOrderPageTest.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Successfully finalized the WorkOrder: ')]/a/b"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAM-PERSONAL', ip: '192.168.29.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\samle\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1de9f4da8c85e189346cf0631d530082
+*** Element info: {Using=xpath, value=//p[contains(text(),'Successfully finalized the WorkOrder: ')]/a/b}
+	at com.vision.test.PurchaseOrderPageTest.newPurchaseOrderTest(PurchaseOrderPageTest.java:32)
+
